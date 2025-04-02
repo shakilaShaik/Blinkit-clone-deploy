@@ -50,6 +50,5 @@ app.use("/api/cart", cartRouter)
 app.use("/api/address", addressRouter)
 app.use("/api/order", orderRouter)
 
-
-
 export default app
+module.exports = app
